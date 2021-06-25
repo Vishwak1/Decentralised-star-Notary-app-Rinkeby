@@ -85,8 +85,8 @@ it('can add the star name and star symbol properly', async () => {
 
 
     //2. Call the name and symbol properties in your Smart Contract and compare with the name and symbol provided
-    assert.equal(await instance.name_of_the_token.call(), "Vishwas Token");
-    assert.equal(await instance.token_symbol.call(), "VT");
+    assert.equal(await instance.name.call(), "Vishwas Token");
+    assert.equal(await instance.symbol.call(), "VT");
 });
 
 it('lets 2 users exchange stars', async () => {

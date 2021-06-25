@@ -14,8 +14,8 @@ contract StarNotary is ERC721 {
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    string public name_of_the_token="Vishwas Token";
-    string  public token_symbol="VT";
+    string public name="Vishwas Token";
+    string  public symbol="VT";
 
 
         
